@@ -1,0 +1,129 @@
+
+
+
+*html {
+    box-sizing: border-box;
+margin: 0 auto;
+padding: 0 auto;
+}
+
+
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+
+
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+display: table;
+content: "";
+clear: both;
+}
+
+body{
+    height: auto;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1170px;
+    min-width: 320px;
+    margin: auto;
+}
+
+body{
+background-image: url(./images/1-36.jpg);
+background-repeat: no-repeat;
+ background-size: cover;
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+a{
+    color: rgb(236, 109, 4);
+    
+}
+
+.qq{
+    color: blue;
+}
+
+article{
+    font-family: 'Caveat';
+    font-size: 28px;
+    color:#cf1271;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+@media (min-width:319px)  and (max-width:666px) {
+    body{
+background-image: url(./images/1-36.jpg);
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 500;
+};
+
+
+.article-text{
+    text-align: center;
+}
+article{
+    width: 170px;
+    height: 100px;
+margin-left: 40px;
+margin-top: 190px;
+margin-bottom: 10px;
+}
+}
+button{
+margin-top: 106px;
+margin-bottom: 124px;
+border: darkred;
+border: 2px solid rgba(255, 255, 255, 1);
+border-radius: 20px;
+cursor: pointer;
+text-align: center;
+font-size: 14px;
+font-family: "Montserrat";
+font-weight: 700;
+text-align: center;
+width: 80px;
+height: 40px;
+border-radius: 20px;
+background-color: #ff4e50;
+border: 0;
+cursor: pointer;  
+}
+
+
+@media (min-width:667px)  and (max-width:968px) {
+body{
+ background-image: url(./images/1-96.jpg);
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 500;
+};
